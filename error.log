@@ -1,0 +1,37 @@
+2025-06-07T15:05:25.097+05:30  INFO 18580 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : Starting LoggingSpringBootApplication using Java 24.0.1 with PID 18580 (/media/kumarutkarshuk/New Volume/Career/tech/spring-boot-java/misc/logging-spring-boot/target/classes started by kumarutkarshuk in /media/kumarutkarshuk/New Volume/Career/tech/spring-boot-java/misc/logging-spring-boot)
+2025-06-07T15:05:25.098+05:30  INFO 18580 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-06-07T15:05:25.623+05:30  INFO 18580 --- [logging-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-07T15:05:25.639+05:30  INFO 18580 --- [logging-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-07T15:05:25.640+05:30  INFO 18580 --- [logging-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-07T15:05:25.658+05:30  INFO 18580 --- [logging-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-07T15:05:25.658+05:30  INFO 18580 --- [logging-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 526 ms
+2025-06-07T15:05:25.892+05:30  INFO 18580 --- [logging-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-07T15:05:25.898+05:30  INFO 18580 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : Started LoggingSpringBootApplication in 1.575 seconds (process running for 2.734)
+2025-06-07T15:07:07.003+05:30  INFO 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-07T15:07:07.004+05:30  INFO 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-07T15:07:07.005+05:30  INFO 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-07T15:07:07.022+05:30  INFO 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] a.v.u.logging_spring_boot.Controller     : An INFO Message
+2025-06-07T15:07:07.022+05:30  WARN 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] a.v.u.logging_spring_boot.Controller     : A WARN Message
+2025-06-07T15:07:07.022+05:30 ERROR 18580 --- [logging-spring-boot] [http-nio-8080-exec-1] a.v.u.logging_spring_boot.Controller     : An ERROR Message
+2025-06-07T15:25:35.862+05:30  INFO 18580 --- [logging-spring-boot] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-07T15:25:35.866+05:30  INFO 18580 --- [logging-spring-boot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-07T15:34:57.229+05:30  INFO 20682 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : Starting LoggingSpringBootApplication using Java 24.0.1 with PID 20682 (/media/kumarutkarshuk/New Volume/Career/tech/spring-boot-java/misc/logging-spring-boot/target/classes started by kumarutkarshuk in /media/kumarutkarshuk/New Volume/Career/tech/spring-boot-java/misc/logging-spring-boot)
+2025-06-07T15:34:57.232+05:30 DEBUG 20682 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-07T15:34:57.235+05:30  INFO 20682 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-06-07T15:34:58.048+05:30  INFO 20682 --- [logging-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-07T15:34:58.071+05:30  INFO 20682 --- [logging-spring-boot] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-07T15:34:58.071+05:30  INFO 20682 --- [logging-spring-boot] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-07T15:34:58.098+05:30  INFO 20682 --- [logging-spring-boot] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-07T15:34:58.099+05:30  INFO 20682 --- [logging-spring-boot] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 790 ms
+2025-06-07T15:34:58.402+05:30  INFO 20682 --- [logging-spring-boot] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-07T15:34:58.409+05:30  INFO 20682 --- [logging-spring-boot] [main] a.v.u.l.LoggingSpringBootApplication     : Started LoggingSpringBootApplication in 1.706 seconds (process running for 2.491)
+2025-06-07T15:35:08.598+05:30  INFO 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-07T15:35:08.598+05:30  INFO 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-07T15:35:08.599+05:30  INFO 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-07T15:35:08.623+05:30 TRACE 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] a.v.u.logging_spring_boot.Controller     : A TRACE Message
+2025-06-07T15:35:08.624+05:30 DEBUG 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] a.v.u.logging_spring_boot.Controller     : A DEBUG Message
+2025-06-07T15:35:08.624+05:30  INFO 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] a.v.u.logging_spring_boot.Controller     : An INFO Message
+2025-06-07T15:35:08.624+05:30  WARN 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] a.v.u.logging_spring_boot.Controller     : A WARN Message
+2025-06-07T15:35:08.624+05:30 ERROR 20682 --- [logging-spring-boot] [http-nio-8080-exec-2] a.v.u.logging_spring_boot.Controller     : An ERROR Message
+2025-06-07T15:42:08.457+05:30  INFO 20682 --- [logging-spring-boot] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-07T15:42:08.463+05:30  INFO 20682 --- [logging-spring-boot] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

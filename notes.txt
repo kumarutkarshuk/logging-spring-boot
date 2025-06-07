@@ -1,0 +1,13 @@
+- log levels: 1.trace 2.debug 3.info 4.warn 5.error
+
+- refer logging.png
+
+- in application.properties: "logging.file.name = filename.log" for logging to a file
+
+- default log level is info which means only logs of level info and higher will only be logged
+ - to change the log level, use "logging.level.[classpath] = [level]" in application.properties
+
+- log: "2025-06-07 15:40:22.123  INFO 15432 --- [  main] com.example.demo.MyService              : Application started successfully"
+    - refer log-breakdown.png for breakdown
+
+- logs can also be custom formatted, colorized
