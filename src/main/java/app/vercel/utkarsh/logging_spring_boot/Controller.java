@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 
 @RestController
 public class Controller {
+    // private & static are used together intentionally
+    // static would make sure only one instance is created
     private static final Logger logger = LoggerFactory.getLogger(Controller.class);
 
     @GetMapping("/test")
